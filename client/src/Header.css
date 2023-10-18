@@ -1,0 +1,26 @@
+.header {
+    margin-left: 10rem;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+}
+
+.logo img {
+    height: 3em;
+    width: auto;
+}
+
+.logo h1 {
+    color: #000000;
+    width: max-content;
+}
+
+@media (max-width: 1024px) {
+    .header {
+        margin-left: inherit;
+    }
+}

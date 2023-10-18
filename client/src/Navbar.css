@@ -1,0 +1,27 @@
+.navbar {
+    /* background-image: url('../public/images/greenbackground2.jpg'); */
+    padding: 0.5em;
+    width: -webkit-fill-available;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.navbar a:hover {
+    color: #856a00;
+}
