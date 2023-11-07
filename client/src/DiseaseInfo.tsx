@@ -67,12 +67,7 @@ function DiseaseInfo() {
     const diseaseInfo = diseaseInfoMap[diseaseName];
 
     if (!diseaseInfo) {
-        return <div>
-            <button onClick={() => navigate(-1)} className="go-back-button">
-                뒤로 가기
-            </button>
-            질병 정보를 찾을 수 없음
-        </div>;
+        return <div>질병 정보를 찾을 수 없음</div>;
     }
 
     return (
