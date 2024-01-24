@@ -66,6 +66,7 @@ python app.py
 ## 기여자
 
 류승기 - 풀스택 개발 - [깃허브 프로필](https://github.com/eukkki210)
+</br>
 돋을볕 - 원본 AI 모델 소스 - [crop-disease-diagnosis-service](https://github.com/DI-LEE/crop-disease-diagnosis-service)
 
 ## 저작권
